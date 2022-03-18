@@ -24,6 +24,7 @@ public class TestePrograma {
                 case "a":
                     int minimo = ficha2.min_array(array);
                     System.out.println("Minimo : " + minimo);
+                    break;
                 case "b":
                     System.out.println("Indique indice minimo : ");
                     int ind_min = sc.nextInt();
@@ -34,6 +35,7 @@ public class TestePrograma {
                     for(int b = 0; b < array_b.length; b++){
                         System.out.print(array_b[b] + " ");
                     }
+                    break;
                 case "c":
                     System.out.println("Indicar tamanho do array ");
                     int array_size_c = sc.nextInt();
@@ -47,6 +49,9 @@ public class TestePrograma {
                     for(int c = 0; c < array_3.length; c++){
                         System.out.print(array_3[c] + " ");
                     }
+                    break;
+            }
+            else if(ex == 2){
 
             }
         }
