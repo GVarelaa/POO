@@ -51,9 +51,6 @@ public class TestePrograma {
                     }
                     break;
             }
-            else if(ex == 2){
-
-            }
         }
 
     }
